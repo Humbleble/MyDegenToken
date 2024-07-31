@@ -13,9 +13,9 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
         marketValue[1] = 125;
         marketValue[2] = 83;  
         marketValue[3] = 23;  
-        marketValue[1] = 67;
-        marketValue[2] = 156;  
-        marketValue[3] = 9;
+        marketValue[4] = 67;
+        marketValue[5] = 156;  
+        marketValue[6] = 9;
     }
 
     function mintDegen(address to, uint256 amount) public onlyOwner {
