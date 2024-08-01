@@ -37,7 +37,7 @@ contract DegenToken is ERC20, ERC20Burnable, Ownable {
     }
 
      function gameStore() public pure returns (string[] memory) {
-        string[] memory items = new string[](3);
+        string[] memory items = new string[](6);
         items[0] = " 1. Knight's Vow 125";
         items[1] = " 2. Runaan's Bow = 83";
         items[2] = " 3. Bloodthirster = 23";
